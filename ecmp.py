@@ -3,7 +3,7 @@ import random
 import gym  
 import numpy as np
 from util.utils import save,save_throughput
-import tensorflow as tf
+import tensorflow as tf   
 
 ENV_NAME = 'GraphEnv-v1'
 graph_topology = 0 # 0==NSFNET, 1==GEANT2, 2==Small Topology, 3==GBN
