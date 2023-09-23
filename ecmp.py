@@ -1,6 +1,6 @@
 import random
 
-import gym
+import gym  
 import numpy as np
 from util.utils import save,save_throughput
 import tensorflow as tf
