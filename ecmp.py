@@ -5,7 +5,7 @@ import numpy as np
 from util.utils import save,save_throughput
 import tensorflow as tf
 
-ENV_NAME = 'GraphEnv-v1'   
+ENV_NAME = 'GraphEnv-v1'
 graph_topology = 0 # 0==NSFNET, 1==GEANT2, 2==Small Topology, 3==GBN
 SEED = 37
 listofDemands = [8, 32, 64]
